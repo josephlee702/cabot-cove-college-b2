@@ -4,4 +4,8 @@ class Resident < ApplicationRecord
   validates :name, presence: true
   validates :age, presence: true
   validates :occupation, presence: true
+
+  def add_course(course)
+    courses << course
+  end
 end
