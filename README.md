@@ -1,22 +1,3 @@
-# Cabot Cove College
-
-This Rails application is intended to be used as an opportunity for students to measure their own learning from week 2 of module 2 of the back-end program of the Turing School of Software & Design.
-
-Fork this repository and clone your newly created repository.
-
-## Be sure to read all user stories BEFORE beginning your work
----
-
-## Setup
-
-* Fork this repository
-* Clone down your forked repository
-* Perform the usual setup steps after cloning a Rails application:
-  - `bundle install`
-  - `bundle update`
-  - `rails db:{drop,create,migrate,seed}`
----
-
 ### Requirements
 
 * TDD all new work; any model METHODS you write must be fully tested.
