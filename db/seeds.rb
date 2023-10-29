@@ -9,9 +9,10 @@
 Resident.destroy_all
 Course.destroy_all
 
-john = Resident.create!(name: "John Smith", age: 37, occupation: "Plumber")
-maria = Resident.create!(name: "Maria Vasquez", age: 29, occupation: "Teacher")
+jessica = Resident.create!(name: "Jessica Fletcher", age: 65, occupation: "Mystery Writer")
+seth = Resident.create!(name: "Seth Hazlitt", age: 70, occupation: "Town Doctor")
+jason = Resident.create!(name: "Jason Smith", age: 55, occupation: "Plumber")
 
-sewing = Course.create!(name: "Sewing")
+karate = Course.create!(name: "Sewing")
 baking = Course.create!(name: "Baking")
 woodworking = Course.create!(name: "Woodworking")
