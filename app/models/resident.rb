@@ -8,4 +8,8 @@ class Resident < ApplicationRecord
   def add_course(course)
     courses << course
   end
+
+  def self.average_age
+    average(:age).round(2)
+  end
 end
