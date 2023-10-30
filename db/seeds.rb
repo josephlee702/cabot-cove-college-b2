@@ -12,7 +12,7 @@ ResidentCourse.destroy_all
 
 jessica = Resident.create!(name: "Jessica Fletcher", age: 65, occupation: "Mystery Writer")
 seth = Resident.create!(name: "Seth Hazlitt", age: 70, occupation: "Town Doctor")
-jason = Resident.create!(name: "Jason Smith", age: 55, occupation: "Plumber")
+jason = Resident.create!(name: "Jason Smith", age: 54, occupation: "Plumber")
 
 crimescenes = Course.create!(name: "Crime Scenes 101")
 fingerprinting = Course.create!(name: "Fingerprinting")
