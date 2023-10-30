@@ -1,8 +1,6 @@
 <h2><u><%= "All Residents" %></u></h2>
 <% @residents.each do |resident| %>
-  <div class="body" >
-    <h3><%= resident.name %></h3>
-    <p>Age: <%= resident.age %></p>
-    <p>Occupation: <%= resident.occupation %></p>
-  </div>
+  <h3><%= resident.name %></h3>
+  <p>Age: <%= resident.age %></p>
+  <p>Occupation: <%= resident.occupation %></p>
 <% end %>

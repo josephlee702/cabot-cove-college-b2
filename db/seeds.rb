@@ -17,12 +17,3 @@ jason = Resident.create!(name: "Jason Smith", age: 55, occupation: "Plumber")
 crimescenes = Course.create!(name: "Crime Scenes 101")
 fingerprinting = Course.create!(name: "Fingerprinting")
 karate = Course.create!(name: "Karate")
-
-jessica.courses.create!(name: crimescenes.name)
-jessica.courses.create!(name: fingerprinting.name)
-jessica.courses.create!(name: karate.name)
-seth.courses.create!(name: crimescenes.name)
-seth.courses.create!(name: karate.name)
-jason.courses.create!(name: fingerprinting.name)
-jason.courses.create!(name: karate.name)
-

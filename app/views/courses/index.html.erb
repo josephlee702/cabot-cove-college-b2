@@ -1,0 +1,4 @@
+<h2><u><%= "All courses" %></u></h2>
+<% @courses.each do |course| %>
+  <u><%= course.name %></u>: <%= course.resident_count%> <br>
+<% end %>
